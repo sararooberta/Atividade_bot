@@ -11,7 +11,7 @@ Para começar, digite `/start`.
 
 ## Código em Python utilizado:
 
-``` {python}
+```{python}
 import requests
 from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, ContextTypes, filters
@@ -56,3 +56,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+```
