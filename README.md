@@ -1,19 +1,23 @@
+
 # Atividade do bot no Telegram
 
-Nosso grupo (formado por Denis, Diogo, Matheus Henrique e Sara) fizemos um bot no telegram a qual ao digitar o nome de uma cidade, ele retornará o clima.
+Nosso grupo (formado por Denis, Diogo, Matheus Henrique e Sara) fez um bot no Telegram que, ao digitar o nome de uma cidade, retorna o clima.
 
-Link para a conversa do telegram: t.me/climaThiagobot
+**Link para a conversa do Telegram:** t.me/climaThiagobot
 
-Deverá começar com /start
+Para começar, digite `/start`.
 
-O código de python utilizado é o seguinte:
+---
 
+## Código em Python utilizado:
+
+```python
 import requests
 from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, ContextTypes, filters
 
-TELEGRAM_TOKEN = "7371385884:AAExe5KmpvUjtyBuq2JkUGvstINE21pk_Mw"
-OPENWEATHER_KEY = "a6c6357b5d1e6e61ee248a59b07e1e80"
+TELEGRAM_TOKEN = "SEU_TOKEN_AQUI"
+OPENWEATHER_KEY = "SUA_CHAVE_AQUI"
 
 def clima(cidade):
     url = f"http://api.openweathermap.org/data/2.5/weather?q={cidade},br&appid={OPENWEATHER_KEY}&units=metric&lang=pt_br"
