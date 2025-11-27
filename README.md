@@ -7,7 +7,7 @@ Link para a conversa do telegram: t.me/climaThiagobot
 Deverá começar com /start
 
 O código de python utilizado é o seguinte:
-```{python}
+
 # API - a6c6357b5d1e6e61ee248a59b07e1e80
 # Token - "7371385884:AAExe5KmpvUjtyBuq2JkUGvstINE21pk_Mw"
 
@@ -55,4 +55,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-```
