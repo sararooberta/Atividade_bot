@@ -8,9 +8,6 @@ Deverá começar com /start
 
 O código de python utilizado é o seguinte:
 
-# API - a6c6357b5d1e6e61ee248a59b07e1e80
-# Token - "7371385884:AAExe5KmpvUjtyBuq2JkUGvstINE21pk_Mw"
-
 import requests
 from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, ContextTypes, filters
